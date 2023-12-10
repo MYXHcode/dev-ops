@@ -5,7 +5,7 @@ cat /lib/systemd/system/docker.service
 
 # 修改 docker.service
 vim /usr/lib/systemd/system/docker.service
-# 或者修改 docker.service，我的腾讯云服务器修改了这个路径下的文件
+# 或者修改这个路径下的 docker.service，我的腾讯云服务器修改了这个路径下的文件
 vim /lib/systemd/system/docker.service
 
 # 修改内容
